@@ -1,5 +1,7 @@
 <?php
 
+// File: app/Http/Controllers/QrCodeController.php
+
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -37,7 +39,6 @@ class QrCodeController extends Controller
 
     public function index()
     {
-        // Assuming you want to display a list of gift cards
         $giftCards = GiftCard::all();
         return view('qrcode.index', compact('giftCards'));
     }
