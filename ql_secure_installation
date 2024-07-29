@@ -1,0 +1,13 @@
+[0;1;32m●[0m mysql.service - MySQL Community Server
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Thu 2024-07-25 21:22:42 EEST; 25s ago
+   Main PID: 5868 (mysqld)
+     Status: "Server is operational"
+      Tasks: 38 (limit: 2235)
+     Memory: 363.8M
+        CPU: 1.329s
+     CGroup: /system.slice/mysql.service
+             └─5868 /usr/sbin/mysqld
+
+Jul 25 21:22:41 t0lm.l.dedikuoti.lt systemd[1]: Starting MySQL Community Server...
+Jul 25 21:22:42 t0lm.l.dedikuoti.lt systemd[1]: Started MySQL Community Server.
