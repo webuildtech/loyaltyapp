@@ -30,7 +30,3 @@ Route::middleware(['auth', 'role:super-admin|restaurant'])->group(function () {
 Route::middleware(['auth', 'role:customer'])->group(function () {
     Route::get('/customer/home', [CustomerDashboardController::class, 'index'])->name('customer.home');
 });
-Route::middleware(['auth', 'role:super-admin|restaurant'])->group(function () {
-    Route::get('/home', [DashboardController::class, 'index'])->name('home');
-    // Other routes
-});
